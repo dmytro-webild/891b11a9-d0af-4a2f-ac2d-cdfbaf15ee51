@@ -33,22 +33,22 @@ export default function LandingPage() {
         {
           name: "Features",
           id: "features",
-          href: "#features",
+
         },
         {
           name: "Metrics",
           id: "metrics",
-          href: "#metrics",
+
         },
         {
           name: "Testimonials",
           id: "testimonials",
-          href: "#testimonials",
+
         },
         {
           name: "FAQ",
           id: "faq",
-          href: "#faq",
+
         },
       ]}
       button={{
@@ -198,17 +198,17 @@ export default function LandingPage() {
       ]}
       kpiItems={[
         {
-          id: "kpi-1",
+
           value: "100M+",
           label: "Messages Sent Daily",
         },
         {
-          id: "kpi-2",
+
           value: "1M+",
           label: "New Connections Weekly",
         },
         {
-          id: "kpi-3",
+
           value: "90%",
           label: "Content Discovery",
         },
@@ -220,6 +220,7 @@ export default function LandingPage() {
 
   <div id="social-proof" data-section="social-proof">
       <SocialProofOne
+      names={[]}
       textboxLayout="default"
       useInvertedBackground={false}
       logos={[
